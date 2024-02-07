@@ -5,7 +5,7 @@ pipeline {
         AWS_DEFAULT_REGION="eu-north-1"
 	    CLUSTER_NAME="demo-cls"
 	    SERVICE_NAME="nodejs-web-service"
-	    TASK_DEFINITION_NAME="nodejs-webserver:1"
+	    TASK_DEFINITION_NAME="nodejs-webserver"
 	    DESIRED_COUNT="1"
         IMAGE_REPO_NAME="demo"
         //Do not edit the variable IMAGE_TAG. It uses the Jenkins job build ID as a tag for the new image.
