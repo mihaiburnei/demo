@@ -12,7 +12,7 @@ pipeline {
         IMAGE_TAG="${env.BUILD_ID}"
         //Do not edit REPOSITORY_URI.
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
-	    registryCredential = "084490284905"
+	    registryCredential = "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"
 	    JOB_NAME = "demo_pipeline"
 	    TEST_CONTAINER_NAME = "${JOB_NAME}-test-server"
     
